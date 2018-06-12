@@ -11,7 +11,12 @@ begin
   
   open CKK
   fetch CKK into vkk;
-  whi
+  
+  while ckk%FOUND LOOP
+
+
+      fetch CKK into vkk;
+  END LOOP;
 
 end;
 
